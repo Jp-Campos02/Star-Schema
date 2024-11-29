@@ -21,10 +21,14 @@ A tabela dim_data foi criada manualmente no Power BI usando DAX.
 2. Configuração do Modelo
 Relacionamentos entre as tabelas foram configurados no painel Modelo do Power BI:
 dim_professor.ID_Professor → fato_professor.ID_Professor
+
 dim_departamento.ID_Departamento → fato_professor.ID_Departamento
+
 dim_curso.ID_Curso → fato_professor.ID_Curso
+
 dim_data.Date → fato_professor.Data_Oferta
-3. Organização do Esquema Estrela
+
+4. Organização do Esquema Estrela
 O modelo foi visualmente organizado no painel Modelo, posicionando a tabela fato no centro e as dimensões ao redor, formando um diagrama de estrela.
 Tecnologias Utilizadas
 Power BI: Para modelagem e visualização.
